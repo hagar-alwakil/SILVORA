@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LogIn Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    </head>
+    <body class="cart-page">
+        <header>
+            <div class="container-header">
+                <div class="header-content">
+                    
+                    <a href="index.html" class="brand">SILVORA</a>
+                
+                    <nav>
+                        <ul id="links">
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="register.html">Sign up</a></li>
+                        </ul>
+                        
+                        <ul id="user-info">
+                           <li><a href="#" id="user"></a></li>
+                           <li class="shopping-cart">
+                            <i class="fa-solid fa-cart-shopping cart"></i>
+                            <span class="badge"></span>
+                            <div class="carts-products">
+                                <div></div>
+                                <a href="cartproducts.html">View All Products </a>
+                            </div>
+                           </li>
+                           <li><a href="#" id="log-out">Log Out</a></li>
+                        </ul>
+                    
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        
+        <section class="home">
+            <div class="container">
+                 <div class="products">
+                     <div class="product-item">
+                        <img class="product-item-img"  src="images/1.png" alt="">
+                        <div class="product-item-desc">
+                            <h2 class="product-title">silver watch for men</h2>
+                            <p class="product-price">price : 8000 </p>
+                            <span class="product-price">category : watches</span>
+                        </div>
+                        <div class="product-item-action">
+                            <button class="add-to-cart">Add To Cart</button>
+                            <i class="fa-solid fa-heart fav"></i>
+                        </div>
+
+                      </div> 
+                  
+                     
+                </div>
+                <div class="total-price">
+    
+                    <h2>Total Price: <span id="totalPrice">0</span> LE</h2>
+                </div>
+                <div class="favorite-section">
+                    <h2 class="Favorite">Favorite Items</h2>
+                    <div class="favorite-products"></div>
+                </div>
+            </div>
+            
+        </section>
+        
+
+
+
+
+
+
+
+
+
+       
+    <script src="js/carts.js"></script>
+     <script src="js/user.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
